@@ -1,0 +1,201 @@
+a {
+  text-decoration:none;
+}
+
+/* エラーメッセージ用のスタイル */
+.error {
+  color: red;
+}
+/* 成功メッセージ用のスタイル */
+.success {
+  color: green;
+}
+/*いいねボタン*/
+.like_button {
+  cursor: pointer;
+}
+
+.like {
+  display: inline;
+}
+.like_post {
+    background-color: #dccaca;
+    border: solid 1px #e67c2e;
+}
+.like_post .like_button {
+    color: yellow;
+}
+/*出品スタイル*/
+.items {
+  list-style: none;
+}
+.items dt{
+  font-weight:bold;
+}
+.item_body_main dt{
+  font-weight:bold;
+}
+.item_content{
+  display: inline-block;
+}
+.item_content{
+  text-decoration:none;
+}
+.item_body{
+  display:flex;
+  flex-direction: column;
+}
+.item_body_main_img {
+  display:flex;
+
+}
+.item_body_main_img img{
+  width: 200px;
+}
+
+.item_body_main_img_edit img {
+  width: 215px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: 50%;
+  margin-bottom: 20px;
+}
+
+.item_body {
+  border-top: solid 1px black;
+  border-bottom:solid 1px black;
+  padding: 10px;
+  margin: 10px;
+  width: 260px;
+}
+.item_body_main_description{
+    display: flex;
+}
+
+/* 共通部分
+-----------------------------------------------------------*/
+
+/* タイトル */
+.logo {
+  font-family: serif;
+  margin:20px 0px 60px 0px;
+}
+
+/* 詳細 */
+.content_item {
+  width: 50%;
+  margin: auto;
+}
+
+.content_item dt {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.content_item dd {
+  padding-left: 20px;
+}
+
+.body_img img{
+  max-width: 100%;
+  height: 300px;
+  vertical-align: middle;
+  box-shadow: 6px 6px 12px 0px;
+  color: #878787;
+  margin-bottom: 30px;
+}
+
+/* 出品してないとき */
+.no_post {
+  margin: 30px;
+}
+
+/* ヘッダーナビ 
+-----------------------------------------------------------*/
+.nav_content a {
+  color: black;
+}
+
+/* ログイン前のヘッダー */
+.not_login {
+  width: 50%;
+  margin: auto;
+  margin-top: 15%;
+  background-color: #d8e8ff;
+  border-radius: 31px;
+  padding: 20px;
+}
+
+/* main 
+-----------------------------------------------------------*/
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* ユーザープロフィール 
+-----------------------------------------------------------*/
+.user_profile {
+  text-align: center;
+}
+
+.user_body {
+  width: 50%;
+  height: auto;
+  margin: auto;
+  background-color: #f3f3f3;
+  border-radius: 28px;
+  padding: 10px;
+}
+
+.user_body_flex {
+  display: flex;
+}
+
+.user_body_text {
+  width: 30%;
+  margin: 15px 0px 0px 10px;
+}
+
+.user_body_img {
+  width: 70%;
+}
+.user_body_img img{
+  border-radius: 125px;
+  max-width: 100%;
+  width: 300px;
+  height: 260px;
+  vertical-align: middle;
+  box-shadow: 6px 6px 12px 0px;
+  color: #878787;
+  margin-bottom: 50px;
+}
+
+.user_body dt {
+  font-size: 18px;
+  text-align: left;
+}
+
+.user_body dd {
+  text-align: left;
+  padding-left: 20px;
+
+}
+
+.user_body_link {
+  margin: 20px;
+  text-align: center;
+}
+
+.item_body_history li{
+  list-style: none;
+}
+
+/* 商品編集、追加
+------------------------------------------------------ */
+.item_object {
+  font-weight: bold;
+}
+
+
